@@ -1,0 +1,120 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+#title{
+    background-color: #FF7600;
+}
+.container-fluid{
+    padding: 5% 15% 7%;   
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    line-height: 1.5;
+    color: white;
+    /* font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif; */
+}
+.navbar-brand{
+    font-size: 2rem;
+}
+.nav-item{
+    padding: 0 30px;
+    font-size: 15px;
+}
+.buttond{
+    margin:3% 5% 3% 8%;
+}
+.imgd{
+    width: 300px;
+    position: absolute;
+    right: 20%;
+}
+#features{
+    text-align: center;
+    background-color: white;
+    position: relative;
+}
+#features h3{
+    font-family: 'Monserrat-Bold', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+#features p{
+    padding: 2% 20%;
+}
+.icons{
+    color: pink;
+    height: 20px;
+    margin: 0% 30% 20%;
+}
+.icons:hover{
+    color: #ff4c68;
+}
+#testimonials{
+    text-align: center;
+    background-color: #FF7600;
+    
+    color: white;
+}
+#testimonials h2{
+    font-weight: bolder;
+    padding: 0 12%;
+}
+#testimonials img{
+    border-radius: 100%;
+    width: 200px;
+}
+#press{
+    text-align: center;
+    background-color: #FF7600;
+}
+#press img{
+    width: 12%;
+    margin: 3% 5%;
+}
+.carousel-item{
+    padding: 3% 12%;
+}
+#pricing{
+    text-align: center;
+    padding: 3% 5%;
+}
+#pricing h2{
+    font-weight: bold;
+    font-size: 3rem;
+}
+/* //media query */
+@media (max-width: 1290px){
+    #title{
+        text-align: center;
+    }
+    .imgd{
+        position: static;
+        transform: rotate(0);
+    }
+}
+#cta{
+    background-color: #FF7600;
+    text-align: center;
+    font-family: 'Monserrat-Black', sans-serif;
+    font-weight: bold;
+    padding: 7% 25%;
+    
+}
+
+#cta h3{
+    font-size: 3rem;
+    color: white;
+    line-height: 1.5;
+}
+#cta button{
+    margin: 10% 5%;
+}
+#footer{
+    text-align: center;
+    margin-top: 5%;
+}
+#footer .fab{
+    margin: 1% 0.4%;
+}
